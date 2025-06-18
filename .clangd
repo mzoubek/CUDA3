@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    # CUDA
+    - --cuda-path=/opt/cuda
+    - -I/opt/cuda/include
+
+    # OpenCV
+    - -I/usr/include/opencv4
+    
